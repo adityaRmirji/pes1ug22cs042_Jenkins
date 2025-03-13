@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './output' // Run the compiled executable
+                    sh './Mirji' // Run the compiled executable
                 }
             }
         }
